@@ -132,6 +132,12 @@ header.scrolled {
     opacity: 0.9;
 }
 
+/* Hide Mobile Elements by Default */
+.menu-toggle,
+.mobile-nav {
+    display: none;
+}
+
 
 /* Section Styling */
 .section {
@@ -1103,7 +1109,8 @@ footer .logo {
         align-items: center;
         gap: 2rem;
         width: 100%;
-        padding: 2rem;
+        padding: 5rem 2rem 2rem;
+        /* Added top padding for logo clearance */
     }
 
     .mobile-link {
